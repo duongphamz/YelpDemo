@@ -9,4 +9,5 @@ target 'HomeTest' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Moya', '~> 15.0'
+  pod 'Kingfisher'
 end

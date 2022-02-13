@@ -25,7 +25,7 @@ enum SearchType {
 }
 
 struct SearchTypeViewModel {
-    let isSelected: Bool
+    var isSelected: Bool
     let type: SearchType
     
     init(isSelected: Bool, type: SearchType) {
@@ -36,7 +36,7 @@ struct SearchTypeViewModel {
 
 class SearchTypeCollectionViewCell: UICollectionViewCell {
     
-    static let identifier = "searchTypeCell"
+    static let identifier = "searchTypeCollectionViewCell"
     
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var searchTypeLabel: UILabel!
